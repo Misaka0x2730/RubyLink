@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.39999999999999997
         }
       },
       "diff_pair_dimensions": [
@@ -53,6 +53,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.2,
+          "width": 0.15
+        },
+        {
+          "gap": 0.15,
+          "via_gap": 0.2,
+          "width": 0.175
         }
       ],
       "drc_exclusions": [],
