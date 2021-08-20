@@ -3119,7 +3119,7 @@
     (in_bom yes) (on_board yes)
     (uuid 6e2428a4-6efd-4cb2-b53f-a383c054986f)
     (property "Reference" "J4" (id 0) (at 237.49 18.6182 0))
-    (property "Value" "TARGET2" (id 1) (at 237.49 20.9296 0))
+    (property "Value" "TARGET1" (id 1) (at 237.49 20.9296 0))
     (property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal" (id 2) (at 236.22 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )

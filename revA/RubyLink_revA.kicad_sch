@@ -859,13 +859,13 @@
     (path "/9733d036-670e-4300-86cf-c35e83c4988d/c69eb072-6b19-402d-9c95-f9fd03997d8e"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9733d036-670e-4300-86cf-c35e83c4988d/164e4a17-f3b9-4dfe-9699-53ff5a95dd93"
+    (path "/9733d036-670e-4300-86cf-c35e83c4988d/afa2c592-638b-48e1-ab23-06c225901827"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
     (path "/9733d036-670e-4300-86cf-c35e83c4988d/72cae20b-ac56-4480-9193-0455fcbaced7"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
-    (path "/9733d036-670e-4300-86cf-c35e83c4988d/afa2c592-638b-48e1-ab23-06c225901827"
+    (path "/9733d036-670e-4300-86cf-c35e83c4988d/164e4a17-f3b9-4dfe-9699-53ff5a95dd93"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/9733d036-670e-4300-86cf-c35e83c4988d/e1aee8e9-bb8b-4316-bc28-224c74105a4a"
@@ -1253,7 +1253,7 @@
       (reference "D2") (unit 1) (value "USB") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/b599441c-0607-4d82-84bb-2d047309a95d/a0df95a4-1280-4035-be04-46cb4ab948a5"
-      (reference "D3") (unit 1) (value "SYS") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D3") (unit 1) (value "ETH") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/7ae0ce71-eaca-4548-a57c-b9a9514737bb/c8ec30de-c3e8-4ea3-bc3c-2a1df717e70c"
       (reference "D4") (unit 1) (value "ERR") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -1277,16 +1277,16 @@
       (reference "FB1") (unit 1) (value "120Ohm/100MHz") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/6c400f8c-64fe-4379-b881-4a778cd4da9f/b17e0f30-aa0b-4bbb-9ad6-5d9d04ce2b39"
-      (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+      (reference "J1") (unit 1) (value "USB") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/6c400f8c-64fe-4379-b881-4a778cd4da9f/9db9212a-7341-44b7-9533-5d4d69ea2c2d"
-      (reference "J2") (unit 1) (value "RJ45_Amphenol_RJMG1BD3B8K1ANR") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
+      (reference "J2") (unit 1) (value "ETHERNET") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
     )
     (path "/b599441c-0607-4d82-84bb-2d047309a95d/60e78eaa-96e8-4f9d-8d75-250d825ba031"
-      (reference "J3") (unit 1) (value "MCU_SWD") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "MCU SWD") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical")
     )
     (path "/7ae0ce71-eaca-4548-a57c-b9a9514737bb/6e2428a4-6efd-4cb2-b53f-a383c054986f"
-      (reference "J4") (unit 1) (value "TARGET2") (footprint "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal")
+      (reference "J4") (unit 1) (value "TARGET1") (footprint "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal")
     )
     (path "/9733d036-670e-4300-86cf-c35e83c4988d/eda6e735-e32f-40bb-9b39-9b7c28d83701"
       (reference "J5") (unit 1) (value "TARGET2") (footprint "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal")
@@ -1507,11 +1507,11 @@
     (path "/2a7ba905-0f24-4127-861f-e8e245434f5c/9ba8ab16-e7f4-4f66-9af6-ca9a48ffab44"
       (reference "R60") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/b599441c-0607-4d82-84bb-2d047309a95d/6fe37623-03ae-474b-b905-2cf6cf95774d"
-      (reference "SW1") (unit 1) (value "RESET") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+    (path "/b599441c-0607-4d82-84bb-2d047309a95d/21108c8a-9ad5-48fa-8722-f56bfdbd7326"
+      (reference "SW1") (unit 1) (value "RESET") (footprint "1571563-9:SW_1571563-9")
     )
-    (path "/b599441c-0607-4d82-84bb-2d047309a95d/0b6f8965-074d-4b21-a112-0d94783237e5"
-      (reference "SW2") (unit 1) (value "BOOT") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+    (path "/b599441c-0607-4d82-84bb-2d047309a95d/e501cd35-5f23-424b-be81-a841cb4de9ff"
+      (reference "SW2") (unit 1) (value "BOOT") (footprint "1571563-9:SW_1571563-9")
     )
     (path "/6c400f8c-64fe-4379-b881-4a778cd4da9f/67078dc9-c952-4603-be19-89df1f9548ba"
       (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
