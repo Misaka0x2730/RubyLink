@@ -1097,16 +1097,16 @@
       (reference "C18") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6c400f8c-64fe-4379-b881-4a778cd4da9f/b3461691-e516-40dd-ae77-aa4f81561cc7"
-      (reference "C19") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C19") (unit 1) (value "18p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/6c400f8c-64fe-4379-b881-4a778cd4da9f/47b53517-dd2e-4a64-8922-2db5062c4dff"
-      (reference "C20") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C20") (unit 1) (value "18p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b599441c-0607-4d82-84bb-2d047309a95d/ad9b4f89-814a-4219-84cc-ed12b7b21aa0"
-      (reference "C21") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C21") (unit 1) (value "18p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b599441c-0607-4d82-84bb-2d047309a95d/832c18cb-5466-45a6-8d92-20e412b9d0bf"
-      (reference "C22") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C22") (unit 1) (value "18p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/b599441c-0607-4d82-84bb-2d047309a95d/1fb707f1-85bb-420b-b302-78d45442cf48"
       (reference "C23") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -1580,7 +1580,7 @@
       (reference "U22") (unit 1) (value "LP2985-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/6c400f8c-64fe-4379-b881-4a778cd4da9f/e0fbac8c-2093-4cb6-9705-ad0a304b373b"
-      (reference "Y1") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+      (reference "Y1") (unit 1) (value "25MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
     )
     (path "/b599441c-0607-4d82-84bb-2d047309a95d/8dff8f6f-b5e2-4288-bb62-cd06868a35f3"
       (reference "Y2") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
