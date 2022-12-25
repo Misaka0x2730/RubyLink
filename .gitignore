@@ -28,3 +28,4 @@ fp-info-cache
 # Ignore backups
 revA/RubyLink_revA-backups/*
 revB/RubyLink_revB-backups/*
+revC/RubyLink_revC-backups/*
