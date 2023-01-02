@@ -36,7 +36,7 @@
         "pads": {
           "drill": 0.0,
           "height": 0.6,
-          "width": 2.05
+          "width": 1.325
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [

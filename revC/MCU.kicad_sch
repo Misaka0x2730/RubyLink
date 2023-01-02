@@ -616,11 +616,11 @@
       )
     )
     (symbol "MCU_RaspberryPi:RP2040" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 17.78 45.72 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "U3" (at -21.59 43.18 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "RP2040" (at 17.78 43.18 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "RP2040" (at 21.59 -43.18 0)
+        (effects (font (size 1.27 1.27)) (justify right))
       )
       (property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -708,7 +708,7 @@
           (name "DVDD" (effects (font (size 1.27 1.27))))
           (number "23" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at -25.4 -27.94 0) (length 3.81)
+        (pin input line (at -25.4 -27.94 0) (length 3.81)
           (name "SWCLK" (effects (font (size 1.27 1.27))))
           (number "24" (effects (font (size 1.27 1.27))))
         )
@@ -1133,6 +1133,7 @@
       )
     )
   )
+
 
   (junction (at 243.84 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 1740a8a5-81f3-48b0-9947-8f5c7506e86b)
@@ -2238,7 +2239,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6377ccf1-24a3-41d7-80e8-a0297ce8965a)
   )
-  (label "SHIFT_REG_IN" (at 195.58 71.12 180) (fields_autoplaced)
+  (label "SHIFT_REG_SER" (at 195.58 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6422c863-931e-40ef-9d87-96405ce48ad3)
   )
@@ -2314,7 +2315,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d83627df-924d-4d26-9c11-771f6583b0ad)
   )
-  (label "SHIFT_REG_IN" (at 152.4 123.19 0) (fields_autoplaced)
+  (label "SHIFT_REG_SER" (at 152.4 123.19 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d9e6ca50-e860-4bf8-b012-dceafe74e229)
   )
@@ -2651,7 +2652,7 @@
   (symbol (lib_id "Device:R") (at 90.17 97.79 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21e7754a-f6e1-487d-a0d5-07fdcf6d673f)
-    (property "Reference" "R16" (at 87.63 96.52 90)
+    (property "Reference" "R15" (at 87.63 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "27" (at 92.71 96.52 90)
@@ -2668,7 +2669,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2896,7 +2897,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 41.91 43.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34db21df-d586-4167-9a52-840dea60a31b)
-    (property "Reference" "TP5" (at 41.91 36.83 0)
+    (property "Reference" "TP6" (at 41.91 36.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GND" (at 43.18 40.64 0)
@@ -2912,7 +2913,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "TP5") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -2966,7 +2967,7 @@
           (reference "TP16") (unit 1)
         )
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "TP16") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
@@ -3133,7 +3134,7 @@
   (symbol (lib_id "Device:R") (at 91.44 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a05a637-3a57-419b-9bba-c502f47b0d31)
-    (property "Reference" "R13" (at 91.44 140.97 90)
+    (property "Reference" "R16" (at 91.44 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 91.44 146.05 90)
@@ -3150,7 +3151,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -3234,7 +3235,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 39.37 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53eadde0-95e3-4467-935a-2e825874fabe)
-    (property "Reference" "TP6" (at 39.37 19.05 0)
+    (property "Reference" "TP5" (at 39.37 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RST" (at 40.64 22.86 0)
@@ -3250,7 +3251,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "TP6") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -3754,7 +3755,7 @@
   (symbol (lib_id "Device:R") (at 90.17 95.25 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8035ddd4-6d71-43df-b2c2-9199261293e8)
-    (property "Reference" "R15" (at 87.63 93.98 90)
+    (property "Reference" "R14" (at 87.63 93.98 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "27" (at 92.71 93.98 90)
@@ -3771,7 +3772,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R15") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3935,7 +3936,7 @@
   (symbol (lib_id "Device:R") (at 243.84 26.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 901d80a6-6d12-496f-9000-21631698ebae)
-    (property "Reference" "R22" (at 242.57 25.4 0)
+    (property "Reference" "R23" (at 242.57 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 242.57 27.94 0)
@@ -3952,7 +3953,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R22") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -4539,7 +4540,7 @@
           (reference "R64") (unit 1)
         )
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R64") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -4727,7 +4728,7 @@
   (symbol (lib_id "Device:R") (at 238.76 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d50e8303-8616-4a21-a8a4-ac1c91fb6b38)
-    (property "Reference" "R20" (at 237.49 148.59 0)
+    (property "Reference" "R22" (at 237.49 148.59 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 237.49 151.13 0)
@@ -4744,7 +4745,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R20") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4753,7 +4754,7 @@
   (symbol (lib_id "Device:R") (at 229.87 33.02 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db9c9d4f-dd41-45f3-876a-185d2e483033)
-    (property "Reference" "R21" (at 229.87 30.48 90)
+    (property "Reference" "R20" (at 229.87 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 229.87 35.56 90)
@@ -4770,7 +4771,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R21") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -5056,7 +5057,7 @@
   (symbol (lib_id "Device:R") (at 88.9 68.58 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa833d35-ef0b-4696-ae24-9d2dcffe9870)
-    (property "Reference" "R14" (at 88.9 66.04 90)
+    (property "Reference" "R13" (at 88.9 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 88.9 71.12 90)
@@ -5073,7 +5074,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/b599441c-0607-4d82-84bb-2d047309a95d"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )

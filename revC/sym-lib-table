@@ -4,4 +4,6 @@
   (lib (name "DMMT5401")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/DMMT5401.kicad_sym")(options "")(descr ""))
   (lib (name "DMG2305UX")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/DMG2305UX.kicad_sym")(options "")(descr ""))
   (lib (name "KSZ8851SNL")(type "KiCad")(uri "${KIPRJMOD}/KSZ8851SNL.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC2090")(type "KiCad")(uri "${KIPRJMOD}/MIC2090.kicad_sym")(options "")(descr ""))
+  (lib (name "HR911105A")(type "KiCad")(uri "${KIPRJMOD}/HR911105A.kicad_sym")(options "")(descr ""))
 )
