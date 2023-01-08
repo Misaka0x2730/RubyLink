@@ -363,111 +363,6 @@
         )
       )
     )
-    (symbol "DMMT5401:DMMT5401-7-F" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "DMMT5401-7-F" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30437.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "PNP/PNP Transistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "200mA IC, 150V Vce, Dual PNP/PNP Transistors, SOT-23-6" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?23-6" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "DMMT5401-7-F_0_1"
-        (polyline
-          (pts
-            (xy 0.635 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 0.635)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 -0.635)
-            (xy 2.54 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 1.905)
-            (xy 0.635 -1.905)
-            (xy 0.635 -1.905)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 -1.778)
-            (xy 1.778 -2.286)
-            (xy 1.27 -1.27)
-            (xy 2.286 -1.778)
-            (xy 2.286 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 1.27 0) (radius 2.8194)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "DMMT5401-7-F_1_1"
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "C1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "B1" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E1" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "DMMT5401-7-F_2_1"
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "B2" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "C2" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -766,6 +661,111 @@
         (pin passive line (at 5.08 -2.54 180) (length 2.54)
           (name "C" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Transistor_BJT:BC857BS" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (at 5.08 1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "BC857BS" (at 5.08 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 5.08 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "PNP/PNP Transistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "100mA IC, 45V Vce, Dual PNP/PNP Transistors, SOT-363" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?363*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "BC857BS_0_1"
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0.635)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -0.635)
+            (xy 2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 1.905)
+            (xy 0.635 -1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -1.778)
+            (xy 1.778 -2.286)
+            (xy 1.27 -1.27)
+            (xy 2.286 -1.778)
+            (xy 2.286 -1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 1.27 0) (radius 2.8194)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "BC857BS_1_1"
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "B1" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "C1" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "BC857BS_2_1"
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "C2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E2" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -5.08 0 0) (length 2.54)
+          (name "B2" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1277,9 +1277,6 @@
   (junction (at 153.67 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 6d49202b-9bca-49cf-88e6-8287fe837974)
   )
-  (junction (at 60.96 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 759b7dfe-d497-4eee-83b6-59a66e0d6c86)
-  )
   (junction (at 184.15 35.56) (diameter 0.9144) (color 0 0 0 0)
     (uuid 78a4e77b-e1af-46d3-a700-9358a8fe2c7a)
   )
@@ -1306,6 +1303,9 @@
   )
   (junction (at 201.93 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 9d1351a5-c714-402c-ab94-957f55df6f11)
+  )
+  (junction (at 55.88 40.64) (diameter 0) (color 0 0 0 0)
+    (uuid a01c399a-c268-4654-a120-eb46fb266618)
   )
   (junction (at 138.43 60.96) (diameter 0) (color 0 0 0 0)
     (uuid a6cd9d1e-30ac-4bbc-866d-5a7c0a0482ad)
@@ -1356,6 +1356,10 @@
     (stroke (width 0) (type solid))
     (uuid 0305caf8-6a48-4966-84a2-903d62210872)
   )
+  (wire (pts (xy 55.88 33.02) (xy 55.88 40.64))
+    (stroke (width 0) (type default))
+    (uuid 031a470c-e971-419f-a394-1e44823df1cd)
+  )
   (wire (pts (xy 170.18 121.92) (xy 170.18 124.46))
     (stroke (width 0) (type default))
     (uuid 0503a66f-3c2b-40f7-b954-c983ee8b064a)
@@ -1379,10 +1383,6 @@
   (wire (pts (xy 247.65 132.08) (xy 247.65 134.62))
     (stroke (width 0) (type solid))
     (uuid 0b253bf9-cdde-409b-9ba6-c59fb8fcc30e)
-  )
-  (wire (pts (xy 71.12 80.01) (xy 71.12 83.82))
-    (stroke (width 0) (type default))
-    (uuid 0b435dc2-46da-42e0-aa8a-734c74870b92)
   )
   (wire (pts (xy 46.99 35.56) (xy 60.96 35.56))
     (stroke (width 0) (type default))
@@ -1448,7 +1448,7 @@
     (stroke (width 0) (type solid))
     (uuid 32d9c9d0-81b6-4ba2-aadc-a2e124247f02)
   )
-  (wire (pts (xy 161.29 134.62) (xy 161.29 139.7))
+  (wire (pts (xy 161.29 134.62) (xy 161.29 138.43))
     (stroke (width 0) (type solid))
     (uuid 34d3e7bb-b6b1-4c6c-b4fc-041704a44b43)
   )
@@ -1512,11 +1512,15 @@
     (stroke (width 0) (type solid))
     (uuid 50e077c3-fb27-4673-a10d-37a5d38dd827)
   )
+  (wire (pts (xy 161.29 148.59) (xy 161.29 146.05))
+    (stroke (width 0) (type default))
+    (uuid 540ca9a4-c288-4811-9f83-26b55dc08af2)
+  )
   (wire (pts (xy 60.96 114.3) (xy 60.96 116.84))
     (stroke (width 0) (type default))
     (uuid 54d28fd2-3400-4e69-a0d5-59b37212de41)
   )
-  (wire (pts (xy 46.99 40.64) (xy 50.8 40.64))
+  (wire (pts (xy 46.99 40.64) (xy 55.88 40.64))
     (stroke (width 0) (type default))
     (uuid 589824d9-e355-4770-a87a-8b96befc0281)
   )
@@ -1560,11 +1564,7 @@
     (stroke (width 0) (type solid))
     (uuid 69ded87a-4c27-4177-8ca3-189263eff9b5)
   )
-  (wire (pts (xy 73.66 80.01) (xy 71.12 80.01))
-    (stroke (width 0) (type default))
-    (uuid 6ab82104-9739-4bef-81d0-034509150189)
-  )
-  (wire (pts (xy 161.29 149.86) (xy 161.29 152.4))
+  (wire (pts (xy 161.29 158.75) (xy 161.29 161.29))
     (stroke (width 0) (type solid))
     (uuid 6ac5ae4a-8409-4b66-bf66-adc7dba2f8f4)
   )
@@ -1603,10 +1603,6 @@
   (wire (pts (xy 118.11 48.26) (xy 118.11 35.56))
     (stroke (width 0) (type default))
     (uuid 79c7952a-1e10-4eff-bf45-3135a19d26da)
-  )
-  (wire (pts (xy 71.12 93.98) (xy 71.12 96.52))
-    (stroke (width 0) (type solid))
-    (uuid 7a800d24-e7ac-48b5-bf9e-1adfc0e60992)
   )
   (wire (pts (xy 138.43 72.39) (xy 138.43 74.93))
     (stroke (width 0) (type default))
@@ -1660,7 +1656,7 @@
     (stroke (width 0) (type solid))
     (uuid 9391e6fc-df1e-4fdc-9a0b-ed1429bffbd8)
   )
-  (wire (pts (xy 50.8 40.64) (xy 50.8 60.96))
+  (wire (pts (xy 55.88 40.64) (xy 55.88 62.23))
     (stroke (width 0) (type default))
     (uuid 946d13fa-9695-4c10-93da-1d6b8ec4a013)
   )
@@ -1683,10 +1679,6 @@
   (wire (pts (xy 184.15 45.72) (xy 184.15 48.26))
     (stroke (width 0) (type solid))
     (uuid 983ac94e-cf37-4ba6-80bb-28455d3bea27)
-  )
-  (wire (pts (xy 60.96 74.93) (xy 60.96 77.47))
-    (stroke (width 0) (type default))
-    (uuid 991d4ccf-17d9-40ba-b1f3-f29f09286909)
   )
   (wire (pts (xy 234.95 127) (xy 234.95 121.92))
     (stroke (width 0) (type default))
@@ -1792,6 +1784,10 @@
     (stroke (width 0) (type solid))
     (uuid d115719b-52d0-4b9f-a45f-c1cf95f12b33)
   )
+  (wire (pts (xy 214.63 63.5) (xy 214.63 67.31))
+    (stroke (width 0) (type solid))
+    (uuid d52c40b9-8a17-442e-89b8-c6fb95b19efc)
+  )
   (wire (pts (xy 153.67 35.56) (xy 153.67 38.1))
     (stroke (width 0) (type default))
     (uuid d75661e3-0af7-4653-829e-94a7979b0cbc)
@@ -1840,7 +1836,7 @@
     (stroke (width 0) (type default))
     (uuid eb933ab0-6ddd-4bef-a40f-ad25aa810256)
   )
-  (wire (pts (xy 149.86 144.78) (xy 153.67 144.78))
+  (wire (pts (xy 149.86 153.67) (xy 153.67 153.67))
     (stroke (width 0) (type solid))
     (uuid ebfc7d0f-3f83-4215-a0e1-b223620fb205)
   )
@@ -1851,10 +1847,6 @@
   (wire (pts (xy 170.18 121.92) (xy 177.8 121.92))
     (stroke (width 0) (type solid))
     (uuid ef00083a-72a2-40ae-bc44-aa6aaef1a746)
-  )
-  (wire (pts (xy 60.96 88.9) (xy 63.5 88.9))
-    (stroke (width 0) (type default))
-    (uuid f028d81c-a8b1-4a57-a262-263920cdd69a)
   )
   (wire (pts (xy 201.93 54.61) (xy 212.09 54.61))
     (stroke (width 0) (type solid))
@@ -1868,10 +1860,6 @@
     (stroke (width 0) (type default))
     (uuid f18c348b-df62-4429-9973-e56d53d3230d)
   )
-  (wire (pts (xy 48.26 88.9) (xy 50.8 88.9))
-    (stroke (width 0) (type default))
-    (uuid f516c758-8a0a-4055-a831-bc0f71286a67)
-  )
   (wire (pts (xy 184.15 35.56) (xy 193.04 35.56))
     (stroke (width 0) (type solid))
     (uuid f73bde44-24e8-4eab-b590-13383be62bbc)
@@ -1880,17 +1868,13 @@
     (stroke (width 0) (type solid))
     (uuid f8606600-81f4-49cc-b789-d055474607fa)
   )
-  (wire (pts (xy 50.8 60.96) (xy 54.61 60.96))
+  (wire (pts (xy 55.88 62.23) (xy 64.77 62.23))
     (stroke (width 0) (type default))
     (uuid f8b6ccae-2a52-48eb-afe4-12b51ce92def)
   )
-  (wire (pts (xy 58.42 88.9) (xy 60.96 88.9))
+  (wire (pts (xy 55.88 22.86) (xy 55.88 25.4))
     (stroke (width 0) (type default))
-    (uuid f8c2a36f-75d0-4e15-b077-70e528cf0924)
-  )
-  (wire (pts (xy 60.96 85.09) (xy 60.96 88.9))
-    (stroke (width 0) (type default))
-    (uuid fafb4765-81e0-4cfc-a9c1-9c8896a56f0f)
+    (uuid f92ae4dd-8d5e-412e-9094-5a0547c9ca44)
   )
   (wire (pts (xy 128.27 53.34) (xy 130.81 53.34))
     (stroke (width 0) (type default))
@@ -1906,7 +1890,7 @@
     (uuid 46b8cc9d-6ebd-42bc-8fe9-b8e47573352d)
   )
   (text "POWER_MODE net has the external series resistor and pull-down, see MCU page."
-    (at 128.27 160.02 0)
+    (at 163.83 161.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8714332c-275f-4f8c-9572-e6bd4aaff94e)
   )
@@ -1916,24 +1900,15 @@
     (uuid b20b9c1f-c514-4b7c-98bd-6ec21801e660)
   )
 
-  (label "CHARGER_~{STAT}" (at 54.61 60.96 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 806c56d7-24ed-4d1c-93a8-337a99395883)
-  )
-  (label "CHARGER_~{STAT}" (at 48.26 88.9 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid dc26f439-e60a-4280-8277-57bc1b902251)
-  )
-
   (hierarchical_label "POWER_MODE" (shape input) (at 49.53 147.32 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 19a76873-39f6-4a1f-af29-f289d7f08138)
   )
-  (hierarchical_label "POWER_MODE" (shape input) (at 149.86 144.78 180) (fields_autoplaced)
+  (hierarchical_label "POWER_MODE" (shape input) (at 149.86 153.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 20313f3b-f87d-4c15-955d-0199a990c50a)
   )
-  (hierarchical_label "BATT_IS_CHARGING" (shape output) (at 73.66 80.01 0) (fields_autoplaced)
+  (hierarchical_label "BATT_IS_CHARGING" (shape output) (at 64.77 62.23 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 642c78cc-1545-4859-958d-f02c013b8d7b)
   )
@@ -1945,7 +1920,7 @@
   (symbol (lib_id "Device:R") (at 60.96 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04bae916-00fd-498c-8153-856f8f1568d8)
-    (property "Reference" "R60" (at 62.23 134.62 0)
+    (property "Reference" "R64" (at 62.23 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 62.23 137.16 0)
@@ -1965,7 +1940,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R60") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
     )
@@ -1974,7 +1949,7 @@
   (symbol (lib_id "power:GNDD") (at 247.65 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fe82f89-11a6-4a92-b473-f33be9aa492a)
-    (property "Reference" "#PWR0179" (at 247.65 140.97 0)
+    (property "Reference" "#PWR0208" (at 247.65 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 247.65 138.43 0)
@@ -1990,7 +1965,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -1999,7 +1974,7 @@
   (symbol (lib_id "power:+3V3") (at 146.05 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10b18420-f983-4960-a25e-d60f8d7f14c8)
-    (property "Reference" "#PWR0282" (at 149.86 121.92 0)
+    (property "Reference" "#PWR0193" (at 149.86 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 143.51 121.92 90)
@@ -2015,7 +1990,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0282") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
       )
     )
@@ -2024,7 +1999,7 @@
   (symbol (lib_id "power:GNDD") (at 261.62 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 114326c8-5332-4706-8a18-303f15fea310)
-    (property "Reference" "#PWR0182" (at 261.62 140.97 0)
+    (property "Reference" "#PWR0209" (at 261.62 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 261.62 138.43 0)
@@ -2040,7 +2015,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0182") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -2081,7 +2056,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 86.36 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 196f8556-6229-4c17-b96a-2b9095babdfa)
-    (property "Reference" "#FLG06" (at 86.36 45.085 0)
+    (property "Reference" "#FLG03" (at 86.36 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 86.36 43.18 0)
@@ -2097,7 +2072,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2106,7 +2081,7 @@
   (symbol (lib_id "Device:C") (at 193.04 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a5135e0-17ce-45e0-9a92-75e1f9bc718e)
-    (property "Reference" "C62" (at 195.58 40.64 0)
+    (property "Reference" "C71" (at 195.58 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 195.58 43.18 0)
@@ -2126,7 +2101,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C62") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -2167,7 +2142,7 @@
   (symbol (lib_id "Device:R") (at 201.93 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 214bc185-9ebb-4545-8fa0-3b1224779720)
-    (property "Reference" "R66" (at 203.2 40.64 0)
+    (property "Reference" "R71" (at 203.2 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "453k" (at 203.2 43.18 0)
@@ -2187,7 +2162,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R66") (unit 1)
+          (reference "R71") (unit 1)
         )
       )
     )
@@ -2221,7 +2196,7 @@
   (symbol (lib_id "Device:C") (at 177.8 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24975d73-fa8b-4fd6-912a-04b9f719757a)
-    (property "Reference" "C60" (at 180.34 127 0)
+    (property "Reference" "C69" (at 180.34 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 180.34 129.54 0)
@@ -2241,40 +2216,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C60") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "DMMT5401:DMMT5401-7-F") (at 120.65 53.34 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 27592c56-0d22-473c-9190-588b94f493cc)
-    (property "Reference" "Q6" (at 115.57 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DMMT5401-7-F" (at 115.57 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 115.57 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30437.pdf" (at 120.65 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "DMMT5401-7-F" (at 120.65 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 42450b26-9526-47c5-abce-633f1419de8f))
-    (pin "2" (uuid 0ce5d352-9d46-4b60-9135-cc1f958a6f9e))
-    (pin "6" (uuid 8b7aedff-af28-4af9-aa1b-ca5992fe0b2a))
-    (pin "3" (uuid a76dbbf1-ce85-40d8-a4ad-29f543433086))
-    (pin "4" (uuid 4d8e8fcf-2272-4035-a871-ddc43a708ee5))
-    (pin "5" (uuid e72df7b1-f67b-48eb-bd2a-50bd241eb9b7))
-    (instances
-      (project "RubyLink_revC"
-        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "Q6") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -2283,7 +2225,7 @@
   (symbol (lib_id "power:GNDD") (at 218.44 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27658480-4305-427c-be8a-3dcb6f2c0282)
-    (property "Reference" "#PWR0174" (at 218.44 140.97 0)
+    (property "Reference" "#PWR0206" (at 218.44 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 218.44 138.43 0)
@@ -2299,7 +2241,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -2308,7 +2250,7 @@
   (symbol (lib_id "Device:C") (at 60.96 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b7d6df4-324f-4993-a66a-c1b1a291886c)
-    (property "Reference" "C57" (at 63.5 40.64 0)
+    (property "Reference" "C66" (at 63.5 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 63.5 43.18 0)
@@ -2328,7 +2270,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C57") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )
@@ -2337,7 +2279,7 @@
   (symbol (lib_id "power:+5V") (at 36.83 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c1801ef-c532-405a-973e-14c5d52bd7be)
-    (property "Reference" "#PWR011" (at 36.83 27.94 0)
+    (property "Reference" "#PWR0181" (at 36.83 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 36.83 20.574 0)
@@ -2353,7 +2295,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -2362,7 +2304,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 177.8 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2dca2aa1-3379-4270-a882-ace153bb20e0)
-    (property "Reference" "#FLG05" (at 177.8 117.475 0)
+    (property "Reference" "#FLG04" (at 177.8 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 177.8 115.57 0)
@@ -2378,7 +2320,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -2387,7 +2329,7 @@
   (symbol (lib_id "Device:C") (at 212.09 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 312cc941-7494-4397-abb2-60f833090729)
-    (property "Reference" "C63" (at 214.63 40.64 0)
+    (property "Reference" "C72" (at 214.63 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 214.63 43.18 0)
@@ -2404,36 +2346,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C63") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 60.96 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 373df9c2-74be-4c4d-b051-b585955778c2)
-    (property "Reference" "R58" (at 62.23 80.01 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10k" (at 62.23 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 59.182 81.28 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 60.96 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "RC0402FR-0710KL" (at 60.96 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bca05ad4-9e59-4091-9733-9577c5aa6549))
-    (pin "2" (uuid fc128ab5-bf96-4447-9505-02304d29f2db))
-    (instances
-      (project "RubyLink_revC"
-        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R58") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -2442,7 +2355,7 @@
   (symbol (lib_id "power:GND") (at 24.13 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ab065d4-4b16-4ba6-9eef-230df4b4fedd)
-    (property "Reference" "#PWR0249" (at 24.13 59.69 0)
+    (property "Reference" "#PWR0180" (at 24.13 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 57.15 0)
@@ -2458,7 +2371,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0249") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -2494,40 +2407,10 @@
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS138") (at 68.58 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3fa926cb-13e6-4c85-a318-f5bd5681779b)
-    (property "Reference" "Q4" (at 73.66 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "BSS138" (at 73.66 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 73.66 86.36 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 68.58 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Part Number" "BSS138PW,115" (at 68.58 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc4154b0-efc0-4ff3-90bd-35c044d82ca8))
-    (pin "2" (uuid fad6d3e3-cb52-47d2-8822-1f1be216b45e))
-    (pin "3" (uuid 94fa8b86-5acd-4aca-81cd-319383daeb98))
-    (instances
-      (project "RubyLink_revC"
-        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "Q4") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 78.74 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 401e4456-8bd6-44c5-88c9-9351fdbd9aa5)
-    (property "Reference" "R61" (at 80.01 121.92 0)
+    (property "Reference" "R65" (at 80.01 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 80.01 124.46 0)
@@ -2547,7 +2430,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R61") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
     )
@@ -2556,7 +2439,7 @@
   (symbol (lib_id "Device:C") (at 170.18 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44b7b1d9-7ab6-4221-927c-184f4cb5b2d7)
-    (property "Reference" "C59" (at 167.64 127 0)
+    (property "Reference" "C68" (at 167.64 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 167.64 129.54 0)
@@ -2576,7 +2459,32 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C59") (unit 1)
+          (reference "C68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 214.63 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4d9f74e4-d029-4f59-a195-26bfaee5b4b0)
+    (property "Reference" "#PWR0205" (at 214.63 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 214.63 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 214.63 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 214.63 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f57c4636-b2fe-44d6-9268-4bf6c7bb2cdd))
+    (instances
+      (project "RubyLink_revC"
+        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -2585,7 +2493,7 @@
   (symbol (lib_id "power:+3.3VP") (at 264.16 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e43152d-c395-481e-84a0-bb9e87a824ac)
-    (property "Reference" "#PWR013" (at 262.89 125.73 0)
+    (property "Reference" "#PWR0210" (at 262.89 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VP" (at 266.7 121.92 90)
@@ -2601,7 +2509,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -2641,7 +2549,7 @@
   (symbol (lib_id "Device:C") (at 153.67 44.45 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57461c46-7629-4220-af47-9080c5aaa9c0)
-    (property "Reference" "C58" (at 151.13 43.18 0)
+    (property "Reference" "C67" (at 151.13 43.18 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 151.13 45.72 0)
@@ -2661,7 +2569,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C58") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -2670,7 +2578,7 @@
   (symbol (lib_id "power:GND") (at 60.96 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c7b76b1-738b-4693-aca7-fc487147050a)
-    (property "Reference" "#PWR0269" (at 60.96 161.29 0)
+    (property "Reference" "#PWR0186" (at 60.96 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 158.75 0)
@@ -2686,7 +2594,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0269") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -2725,7 +2633,7 @@
   (symbol (lib_id "power:GND") (at 177.8 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d3daac2-ef74-45da-94a2-323c6863a899)
-    (property "Reference" "#PWR0247" (at 177.8 140.97 0)
+    (property "Reference" "#PWR0198" (at 177.8 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 138.43 0)
@@ -2741,28 +2649,28 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0247") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Transistor_FET:BSS138") (at 158.75 144.78 0) (unit 1)
+  (symbol (lib_id "Transistor_FET:BSS138") (at 158.75 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d41f426-91fb-4c40-b509-dd995f229fe5)
-    (property "Reference" "Q8" (at 163.83 143.51 0)
+    (property "Reference" "Q8" (at 163.83 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BSS138" (at 163.83 146.05 0)
+    (property "Value" "BSS138" (at 163.83 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 163.83 142.24 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 163.83 151.13 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 158.75 144.78 0)
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 158.75 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Part Number" "BSS138PW,115" (at 158.75 144.78 0)
+    (property "Part Number" "BSS138PW,115" (at 158.75 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8a865d30-8b59-480d-8677-b2f6c1f3781f))
@@ -2780,7 +2688,7 @@
   (symbol (lib_id "power:GND") (at 138.43 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ddd11ba-98cb-4bde-aa4a-14f10bc176b2)
-    (property "Reference" "#PWR0256" (at 138.43 81.28 0)
+    (property "Reference" "#PWR0192" (at 138.43 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 78.74 0)
@@ -2796,7 +2704,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0256") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
       )
     )
@@ -2831,26 +2739,31 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 60.96 74.93 0) (unit 1)
+  (symbol (lib_id "Transistor_BJT:BC857BS") (at 135.89 53.34 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 611f4f26-c607-41d3-bed8-148b0ce42577)
-    (property "Reference" "#PWR0132" (at 60.96 78.74 0)
+    (uuid 60cceb2b-0d53-4266-b7c6-6df2570719e1)
+    (property "Reference" "Q6" (at 133.35 48.26 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "BCM857BS" (at 133.35 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 140.97 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 60.96 71.374 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 60.96 74.93 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" (at 135.89 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 60.96 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 25c52b69-f5b0-46f9-a633-bb1d40480182))
+    (pin "1" (uuid 16020b01-6618-4fac-9eef-f4007752db75))
+    (pin "2" (uuid 9e061b78-6ac7-46f4-afcd-e553b1fb813b))
+    (pin "6" (uuid 5b8f7d94-28a5-4a53-92a2-5e695aae6690))
+    (pin "3" (uuid 09f0fa3d-c26a-46f6-8f96-c287b81c131a))
+    (pin "4" (uuid b365c1ae-4cab-40ef-9b79-e731ac06fa5b))
+    (pin "5" (uuid 65ee034f-1d90-4f3d-831f-08b6b51e7ba8))
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0132") (unit 1)
+          (reference "Q6") (unit 2)
         )
       )
     )
@@ -2859,7 +2772,7 @@
   (symbol (lib_id "Device:C") (at 261.62 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 648ba664-118c-42bd-8470-5d32b1adccbd)
-    (property "Reference" "C66" (at 264.16 127 0)
+    (property "Reference" "C75" (at 264.16 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 264.16 129.54 0)
@@ -2879,7 +2792,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C66") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -2913,7 +2826,7 @@
   (symbol (lib_id "Device:R") (at 138.43 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 656f9d4f-52a7-4b11-b5e7-7a1fed0c03fa)
-    (property "Reference" "R64" (at 139.7 67.31 0)
+    (property "Reference" "R68" (at 139.7 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 139.7 69.85 0)
@@ -2933,7 +2846,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R64") (unit 1)
+          (reference "R68") (unit 1)
         )
       )
     )
@@ -2942,7 +2855,7 @@
   (symbol (lib_id "Device:R") (at 118.11 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6583a887-d2a7-4156-a3e7-ac40132ed253)
-    (property "Reference" "R63" (at 116.84 67.31 0)
+    (property "Reference" "R67" (at 116.84 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 116.84 69.85 0)
@@ -2962,7 +2875,32 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R63") (unit 1)
+          (reference "R67") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 214.63 63.5 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 67f74d88-5271-4c33-9870-24584c97dc54)
+    (property "Reference" "TP19" (at 214.63 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "GND" (at 215.9 60.96 0)
+      (effects (font (size 1.27 1.27)) (justify right bottom))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 209.55 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 209.55 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b0e9710-b877-4450-a1ac-71dee886a211))
+    (instances
+      (project "RubyLink_revC"
+        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -2993,10 +2931,35 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 55.88 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6c06c1ae-16f3-4306-b35f-832832493cea)
+    (property "Reference" "#PWR0183" (at 55.88 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 55.88 19.304 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 55.88 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 55.88 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 20180dc8-194e-43b9-ad62-3bdb1ca3c136))
+    (instances
+      (project "RubyLink_revC"
+        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
+          (reference "#PWR0183") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 184.15 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d4f0ee4-4129-475e-9179-c77ca7900dee)
-    (property "Reference" "#PWR0259" (at 184.15 54.61 0)
+    (property "Reference" "#PWR0199" (at 184.15 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 52.07 0)
@@ -3012,7 +2975,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0259") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
     )
@@ -3021,7 +2984,7 @@
   (symbol (lib_id "Device:R") (at 78.74 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d65d42f-3631-40f8-9182-72bbdcfdc9c5)
-    (property "Reference" "R62" (at 80.01 134.62 0)
+    (property "Reference" "R66" (at 80.01 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 80.01 137.16 0)
@@ -3041,7 +3004,37 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R62") (unit 1)
+          (reference "R66") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Transistor_BJT:BC857BS") (at 120.65 53.34 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6dc6c0fb-b98d-4820-869d-afe32370ce6c)
+    (property "Reference" "Q6" (at 115.57 52.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BCM857BS" (at 115.57 55.245 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 115.57 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC857BS.pdf" (at 120.65 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ebf940f-7aba-41dd-8322-8f4a4b6beb23))
+    (pin "2" (uuid 1d4fb3da-9f8a-4d1d-9551-0a89b646a850))
+    (pin "6" (uuid 2fda871b-c544-444e-b8bc-091659053386))
+    (pin "3" (uuid 48a9255e-1958-4584-85f0-dfecab5d63d2))
+    (pin "4" (uuid 9cb6a92f-bdae-468e-a642-6ce7972660d2))
+    (pin "5" (uuid 2ad4e066-0760-4908-ad91-f119fc04bec5))
+    (instances
+      (project "RubyLink_revC"
+        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -3050,7 +3043,7 @@
   (symbol (lib_id "Device:R") (at 151.13 128.27 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 722ce03a-cd8b-4145-be69-e4715533bbda)
-    (property "Reference" "R65" (at 149.86 127 0)
+    (property "Reference" "R69" (at 149.86 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 149.86 129.54 0)
@@ -3070,7 +3063,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R65") (unit 1)
+          (reference "R69") (unit 1)
         )
       )
     )
@@ -3079,7 +3072,7 @@
   (symbol (lib_id "Device:C") (at 218.44 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79f38509-1f5e-48c2-ab86-e778794f4393)
-    (property "Reference" "C64" (at 220.98 127 0)
+    (property "Reference" "C73" (at 220.98 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 220.98 129.54 0)
@@ -3099,7 +3092,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C64") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -3108,7 +3101,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 16.51 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b5f7d71-8a72-4d30-9a3a-5956a656acf6)
-    (property "Reference" "TP18" (at 16.51 43.18 0)
+    (property "Reference" "TP17" (at 16.51 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "GND" (at 17.78 46.99 0)
@@ -3124,7 +3117,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "TP18") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -3133,7 +3126,7 @@
   (symbol (lib_id "power:GND") (at 60.96 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 806b3df7-6302-4c43-9fb6-4fbcbdbcf1b2)
-    (property "Reference" "#PWR0253" (at 60.96 54.61 0)
+    (property "Reference" "#PWR0185" (at 60.96 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 52.07 0)
@@ -3149,7 +3142,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0253") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -3158,7 +3151,7 @@
   (symbol (lib_id "Transistor_FET:BSS138") (at 58.42 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8094bb24-fa05-46e2-9539-d99e1899d107)
-    (property "Reference" "Q3" (at 63.5 146.05 0)
+    (property "Reference" "Q4" (at 63.5 146.05 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BSS138" (at 63.5 148.59 0)
@@ -3179,7 +3172,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3188,7 +3181,7 @@
   (symbol (lib_id "power:+3V3") (at 214.63 35.56 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 831fa290-77a6-4ae8-a347-737068ec30dd)
-    (property "Reference" "#PWR0280" (at 210.82 35.56 0)
+    (property "Reference" "#PWR0204" (at 210.82 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 217.17 35.56 90)
@@ -3204,7 +3197,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0280") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -3213,7 +3206,7 @@
   (symbol (lib_id "power:GND") (at 24.13 27.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86711132-4f79-4997-b146-323045bc8169)
-    (property "Reference" "#PWR0254" (at 17.78 27.94 0)
+    (property "Reference" "#PWR0179" (at 17.78 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.59 27.94 90)
@@ -3229,7 +3222,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0254") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -3238,7 +3231,7 @@
   (symbol (lib_id "power:GND") (at 16.51 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 887fdc4d-06e1-410e-bbb3-de6ae089fb6d)
-    (property "Reference" "#PWR0251" (at 16.51 59.69 0)
+    (property "Reference" "#PWR0178" (at 16.51 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 57.15 0)
@@ -3254,7 +3247,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0251") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -3263,7 +3256,7 @@
   (symbol (lib_id "power:GNDD") (at 232.41 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b7974e1-e66e-4cdc-b0a3-0a0ab40499c0)
-    (property "Reference" "#PWR0173" (at 232.41 140.97 0)
+    (property "Reference" "#PWR0207" (at 232.41 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 232.41 138.43 0)
@@ -3279,7 +3272,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0173") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -3288,7 +3281,7 @@
   (symbol (lib_id "power:+BATT") (at 57.15 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c9ddff1-21cc-4ccc-accd-d6dee249ce1c)
-    (property "Reference" "#PWR0243" (at 60.96 116.84 0)
+    (property "Reference" "#PWR0184" (at 60.96 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 54.61 116.84 90)
@@ -3304,7 +3297,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0243") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -3313,7 +3306,7 @@
   (symbol (lib_id "power:+5V") (at 138.43 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9025af30-b9a0-4b3a-b338-f3154fcd5025)
-    (property "Reference" "#PWR012" (at 138.43 36.83 0)
+    (property "Reference" "#PWR0191" (at 138.43 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 138.43 29.464 0)
@@ -3329,7 +3322,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
       )
     )
@@ -3338,7 +3331,7 @@
   (symbol (lib_id "power:GND") (at 186.69 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95946696-959e-4dff-9f81-c6757a0a79ed)
-    (property "Reference" "#PWR0248" (at 186.69 140.97 0)
+    (property "Reference" "#PWR0200" (at 186.69 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 186.69 138.43 0)
@@ -3354,7 +3347,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0248") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -3363,7 +3356,7 @@
   (symbol (lib_id "power:GNDD") (at 271.78 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9849c6ce-49fe-4b71-acfc-f3e05759eeca)
-    (property "Reference" "#PWR0184" (at 271.78 140.97 0)
+    (property "Reference" "#PWR0211" (at 271.78 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 271.78 138.43 0)
@@ -3379,7 +3372,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -3388,7 +3381,7 @@
   (symbol (lib_id "Device:R") (at 60.96 123.19 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 997cc9a9-976d-4031-ae22-abb9fb990e11)
-    (property "Reference" "R55" (at 59.69 121.92 0)
+    (property "Reference" "R?" (at 59.69 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 59.69 124.46 0)
@@ -3408,10 +3401,10 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/9733d036-670e-4300-86cf-c35e83c4988d"
-          (reference "R55") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R59") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
     )
@@ -3420,7 +3413,7 @@
   (symbol (lib_id "Device:R") (at 201.93 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ba8ab16-e7f4-4f66-9af6-ca9a48ffab44)
-    (property "Reference" "R67" (at 203.2 59.69 0)
+    (property "Reference" "R72" (at 203.2 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 203.2 62.23 0)
@@ -3440,7 +3433,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R67") (unit 1)
+          (reference "R72") (unit 1)
         )
       )
     )
@@ -3449,7 +3442,7 @@
   (symbol (lib_id "Device:C") (at 184.15 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e723d7f-b836-421f-9de4-a1cd28604170)
-    (property "Reference" "C61" (at 186.69 40.64 0)
+    (property "Reference" "C70" (at 186.69 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 186.69 43.18 0)
@@ -3469,7 +3462,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C61") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -3478,7 +3471,7 @@
   (symbol (lib_id "power:GND") (at 163.83 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a00c8504-adb1-43e6-96f6-fea7ebd6ed4c)
-    (property "Reference" "#PWR0255" (at 163.83 57.15 0)
+    (property "Reference" "#PWR0196" (at 163.83 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 163.83 54.61 0)
@@ -3494,32 +3487,32 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 161.29 152.4 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 161.29 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a054cf92-f170-4d55-8d66-beea061c759d)
-    (property "Reference" "#PWR0244" (at 161.29 158.75 0)
+    (property "Reference" "#PWR0195" (at 161.29 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 161.29 156.21 0)
+    (property "Value" "GND" (at 161.29 165.1 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 161.29 152.4 0)
+    (property "Footprint" "" (at 161.29 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 161.29 152.4 0)
+    (property "Datasheet" "" (at 161.29 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1bba7c21-dae2-4094-8aee-96dab562e0f2))
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0244") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
       )
     )
@@ -3528,7 +3521,7 @@
   (symbol (lib_id "power:GND") (at 78.74 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3ace4cf-4197-4aa3-995b-e396982576f1)
-    (property "Reference" "#PWR0245" (at 78.74 149.86 0)
+    (property "Reference" "#PWR0189" (at 78.74 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 78.74 147.32 0)
@@ -3544,7 +3537,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0245") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
     )
@@ -3553,7 +3546,7 @@
   (symbol (lib_id "Device:R") (at 24.13 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aab9a9aa-6c9f-46ff-b573-b46aeab48fb1)
-    (property "Reference" "R56" (at 25.4 45.72 0)
+    (property "Reference" "R61" (at 25.4 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 25.4 48.26 0)
@@ -3573,7 +3566,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R56") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -3637,12 +3630,12 @@
   )
 
   (symbol (lib_id "Battery_Management:MCP73832-2-OT") (at 36.83 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid bcdcbf28-28a1-49fd-9314-32e7c19ca524)
     (property "Reference" "U23" (at 38.7859 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MCP73832-2-OT" (at 38.7859 31.75 0)
+    (property "Value" "MCP73832-2-OT" (at 38.1 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 38.1 44.45 0)
@@ -3671,7 +3664,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 212.09 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c33e140a-e84d-42ce-ab85-0f0c40cca6f7)
-    (property "Reference" "#FLG0101" (at 212.09 26.035 0)
+    (property "Reference" "#FLG05" (at 212.09 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 212.09 24.13 0)
@@ -3687,40 +3680,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#FLG0101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "DMMT5401:DMMT5401-7-F") (at 135.89 53.34 0) (mirror x) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c61355f7-56c6-46dc-9984-c9689f3530b6)
-    (property "Reference" "Q6" (at 143.51 55.245 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "DMMT5401-7-F" (at 143.51 57.785 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6" (at 140.97 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30437.pdf" (at 135.89 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "DMMT5401-7-F" (at 135.89 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0453f53b-61b9-4ebb-b29f-0cfc87a85126))
-    (pin "2" (uuid e6a0b04f-2fea-4a0e-be5c-19bb71614258))
-    (pin "6" (uuid f5d0b34d-197e-45d0-ab4e-846a71bfec80))
-    (pin "3" (uuid d8a5d9ce-3f02-4d7f-a70c-696a9764c007))
-    (pin "4" (uuid 11f126d9-90cb-4f8c-8bdf-bbbe7339eed5))
-    (pin "5" (uuid 1f824b4f-63f8-48d1-a202-54cfdcd28232))
-    (instances
-      (project "RubyLink_revC"
-        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "Q6") (unit 2)
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -3729,7 +3689,7 @@
   (symbol (lib_id "DMG2305UX:DMP3099L") (at 71.12 119.38 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca2464fc-67b9-430b-9e92-24d7405aa93c)
-    (property "Reference" "Q11" (at 71.12 110.49 90)
+    (property "Reference" "Q?" (at 71.12 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DMP3099L" (at 71.12 113.03 90)
@@ -3750,7 +3710,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/9733d036-670e-4300-86cf-c35e83c4988d"
-          (reference "Q11") (unit 1)
+          (reference "Q?") (unit 1)
         )
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
           (reference "Q5") (unit 1)
@@ -3762,7 +3722,7 @@
   (symbol (lib_id "power:GNDD") (at 212.09 134.62 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbc76f57-e7dc-4912-a4a4-aa5c19aeec73)
-    (property "Reference" "#PWR0177" (at 212.09 140.97 0)
+    (property "Reference" "#PWR0203" (at 212.09 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 212.09 138.43 0)
@@ -3778,36 +3738,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0177") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 54.61 88.9 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cfe9067f-e34a-480d-838d-b16df1b8ab4b)
-    (property "Reference" "R57" (at 54.61 86.36 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1k" (at 54.61 91.44 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 54.61 90.678 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 54.61 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Part Number" "RC0402FR-071KL" (at 54.61 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 03c0fcdd-5aab-4ecc-b3e2-8fa38ab6add9))
-    (pin "2" (uuid 0639fc72-ece7-4840-bdf3-66b774ffabe2))
-    (instances
-      (project "RubyLink_revC"
-        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "R57") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -3816,7 +3747,7 @@
   (symbol (lib_id "Device:C") (at 30.48 27.94 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d03abdc6-6187-46dd-9a2e-27a035b16f8b)
-    (property "Reference" "C56" (at 29.21 26.67 90)
+    (property "Reference" "C65" (at 29.21 26.67 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7u" (at 31.75 26.67 90)
@@ -3836,7 +3767,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C56") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -3845,7 +3776,7 @@
   (symbol (lib_id "power:GND") (at 201.93 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1d6a95a-1b33-4e71-82d9-729972ae01b7)
-    (property "Reference" "#PWR0261" (at 201.93 73.66 0)
+    (property "Reference" "#PWR0202" (at 201.93 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 71.12 0)
@@ -3861,7 +3792,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -3870,7 +3801,7 @@
   (symbol (lib_id "power:GND") (at 170.18 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3f5a662-5021-49bb-b150-e7f880845b8c)
-    (property "Reference" "#PWR0246" (at 170.18 140.97 0)
+    (property "Reference" "#PWR0197" (at 170.18 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 138.43 0)
@@ -3886,7 +3817,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0246") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
     )
@@ -3895,7 +3826,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 60.96 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4732cbb-abed-4bc3-bed7-38936a8a4a5d)
-    (property "Reference" "TP19" (at 60.96 107.95 0)
+    (property "Reference" "TP18" (at 60.96 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BATT" (at 59.69 111.76 0)
@@ -3911,7 +3842,36 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "TP19") (unit 1)
+          (reference "TP18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 55.88 29.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d4cd71ad-9cca-4df0-9ad4-723260dd83dd)
+    (property "Reference" "R62" (at 57.15 27.94 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (at 57.15 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 54.102 29.21 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 55.88 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "RC0402FR-0710KL" (at 55.88 29.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a2c7efc5-ab69-4949-81ae-f74311b0737e))
+    (pin "2" (uuid 7ee77142-8461-4e0e-93c7-4e4b3e3c01f6))
+    (instances
+      (project "RubyLink_revC"
+        (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -3920,7 +3880,7 @@
   (symbol (lib_id "power:GND") (at 36.83 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5616b23-1576-4ee7-968f-41826d3663de)
-    (property "Reference" "#PWR0250" (at 36.83 54.61 0)
+    (property "Reference" "#PWR0182" (at 36.83 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 52.07 0)
@@ -3936,32 +3896,36 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0250") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 71.12 96.52 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 161.29 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid d8e7ec9f-cc0f-4329-9033-c648bf1fb1ad)
-    (property "Reference" "#PWR0133" (at 71.12 102.87 0)
+    (uuid e2e13663-7025-4679-a069-632889a40685)
+    (property "Reference" "R70" (at 162.56 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1k" (at 162.56 143.51 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 159.512 142.24 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 71.12 100.33 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 71.12 96.52 0)
+    (property "Datasheet" "~" (at 161.29 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 71.12 96.52 0)
+    (property "Part Number" "RC0402FR-071KL" (at 161.29 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1c77ba1-e0fe-43cf-b52c-5582ed415311))
+    (pin "1" (uuid bd596f33-7d13-4413-93af-cd157ac2f838))
+    (pin "2" (uuid f9daee9b-1190-4def-a3c5-44c8e1a3dce6))
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0133") (unit 1)
+          (reference "R70") (unit 1)
         )
       )
     )
@@ -3970,7 +3934,7 @@
   (symbol (lib_id "power:GND") (at 153.67 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3c404c3-b437-4146-a625-161352a7849e)
-    (property "Reference" "#PWR0257" (at 153.67 57.15 0)
+    (property "Reference" "#PWR0194" (at 153.67 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 54.61 0)
@@ -3986,7 +3950,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0257") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
       )
     )
@@ -3995,7 +3959,7 @@
   (symbol (lib_id "power:GND") (at 76.2 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4f793d4-f7e5-4a1d-b8d9-ef111a0c8a13)
-    (property "Reference" "#PWR0252" (at 76.2 62.23 0)
+    (property "Reference" "#PWR0188" (at 76.2 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 59.69 0)
@@ -4011,7 +3975,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0252") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -4020,7 +3984,7 @@
   (symbol (lib_id "power:+BATT") (at 76.2 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8f4fd8f-4a2d-46d1-98ae-dd0332d05831)
-    (property "Reference" "#PWR0175" (at 76.2 50.8 0)
+    (property "Reference" "#PWR0187" (at 76.2 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (at 76.2 43.18 0)
@@ -4036,7 +4000,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0175") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
       )
     )
@@ -4045,7 +4009,7 @@
   (symbol (lib_id "power:GND") (at 193.04 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea83be19-89b9-4fce-b98c-327689e805bd)
-    (property "Reference" "#PWR0260" (at 193.04 54.61 0)
+    (property "Reference" "#PWR0201" (at 193.04 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 52.07 0)
@@ -4061,7 +4025,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0260") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -4070,7 +4034,7 @@
   (symbol (lib_id "Device:C") (at 232.41 128.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb8ff544-d2be-4b02-bfc2-f3c3b945d09e)
-    (property "Reference" "C65" (at 229.87 127 0)
+    (property "Reference" "C74" (at 229.87 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 229.87 129.54 0)
@@ -4090,7 +4054,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "C65") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -4129,7 +4093,7 @@
   (symbol (lib_id "power:GND") (at 118.11 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcd30363-ed8e-4bd0-9790-6976aa982e58)
-    (property "Reference" "#PWR0242" (at 118.11 81.28 0)
+    (property "Reference" "#PWR0190" (at 118.11 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 78.74 0)
@@ -4145,7 +4109,7 @@
     (instances
       (project "RubyLink_revC"
         (path "/65daf8d2-4825-4f87-b4f0-8df3e12da549/2a7ba905-0f24-4127-861f-e8e245434f5c"
-          (reference "#PWR0242") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
     )

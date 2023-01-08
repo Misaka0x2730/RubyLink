@@ -7,4 +7,5 @@
   (lib (name "MIC2090")(type "KiCad")(uri "${KIPRJMOD}/MIC2090.kicad_sym")(options "")(descr ""))
   (lib (name "HR911105A")(type "KiCad")(uri "${KIPRJMOD}/HR911105A.kicad_sym")(options "")(descr ""))
   (lib (name "ARJM11A1-009-AB-ER2-T")(type "KiCad")(uri "${KIPRJMOD}/ARJM11A1-009-AB-ER2-T.kicad_sym")(options "")(descr ""))
+  (lib (name "MIC20x9")(type "KiCad")(uri "${KIPRJMOD}/MIC20x9.kicad_sym")(options "")(descr ""))
 )
